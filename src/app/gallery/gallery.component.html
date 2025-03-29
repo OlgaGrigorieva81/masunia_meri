@@ -1,0 +1,35 @@
+<div class="about-container">
+  <div class="container">
+    <h2 class="text-center">Добро пожаловать!</h2>
+
+    <!-- Контейнер для галереи -->
+<div class="gallery-container">
+  <div class="row">
+    <!-- Цикл по всем свечам -->
+    <div class="col-md-3" *ngFor="let candle of candles" (click)="openModal(candle.gallery)">
+      <div class="card">
+        <img [src]="candle.image" class="card-img-top" alt="{{ candle.name }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ candle.name }}</h5>
+          <!-- Добавленная кнопка -->
+          <button class="btn btn-pink mt-auto" (click)="openModal(candle.gallery)">Посмотреть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Модальное окно для просмотра изображений -->
+<div class="modal" *ngIf="isModalOpen" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <span class="close" (click)="closeModal()">&times;</span>
+    <button class="prev" (click)="prevImage()">&#10094;</button>
+    
+    <!-- Основное изображение в модальном окне -->
+    <img [src]="selectedGallery[currentIndex]" alt="свеча нет в наличии">
+    
+    <button class="next" (click)="nextImage()">&#10095;</button>
+  </div>
+ </div>
+</div>
+</div>

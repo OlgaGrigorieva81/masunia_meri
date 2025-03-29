@@ -1,0 +1,73 @@
+/* Карусель */
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Ограничиваем высоту карусели */
+}
+
+.carousel-item {
+  width: 100%; /* Теперь элемент занимает всю ширину */
+  max-width: 100vw; /* Ограничиваем максимальную ширину */
+  margin: 0 auto; /* Центрируем */
+  text-align: center; /* Центрируем содержимое */
+}
+
+.carousel-item img {
+  width: 100%; /* Растягиваем на всю ширину */
+  height: 100%;
+  object-fit: cover; /* Сохранение пропорций */
+}
+
+/* Карточки */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Теперь карточки будут переноситься */
+  gap: 20px; /* Добавлен отступ между карточками */
+  margin-top: 20px;
+}
+
+.card {
+  width: 18rem; /* Немного уменьшили ширину */
+  height: auto; /* Высота автоматически */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-height: 250px; /* Ограничиваем высоту */
+  object-fit: cover; /* Подгоняем */
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  font-size: 0.875rem;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Секция "О нас" */
+.about-container {
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 200px; /* Уменьшаем карусель */
+  }
+
+  .carousel-item img {
+    height: 200px;
+  }
+
+  .card {
+    width: 90%; /* Карточки растягиваются на всю ширину */
+  }
+}
