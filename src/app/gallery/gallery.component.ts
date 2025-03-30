@@ -20,7 +20,7 @@ export class GalleryComponent {
         '/assets/1B4AF20C-BE67-4D11-A024-38D6E5FF80C8.jpeg',
         '/assets/IMG_4694.jpeg',
         '/assets/IMG_7243.jpeg',
-        '/assets/IMG_9999.jpeg',
+        
         '/assets/IMG_7583.jpeg',
         '/assets/IMG_6922 (1).jpeg',
         '/assets/IMG_6908 (1).jpeg',
@@ -39,7 +39,7 @@ export class GalleryComponent {
         '/assets/0DD8CEE5-AA03-4977-8E9B-3A39044678C3.jpeg',
         '/assets/IMG_2893.jpeg',
         '/assets/IMG_4532.jpeg',
-        '/assets/IMG_1234.jpeg',
+        
         '/assets/IMG_2772.jpeg',
         '/assets/IMG_3037.jpeg',
         '/assets/IMG_4328.jpeg',
@@ -54,7 +54,7 @@ export class GalleryComponent {
         '/assets/IMG_8380.jpeg',
         '/assets/IMG_6962.jpeg',
         '/assets/IMG_6955.jpeg',
-        '/assets/IMG_5678.jpeg',
+        '/assets/IMG_7855.jpeg',
         '/assets/IMG_20250324_145941.jpg',
         '/assets/IMG_20250324_145922.jpg',
         '/assets/IMG_2292.jpeg',
@@ -85,9 +85,15 @@ export class GalleryComponent {
         '/assets/IMG_1764.jpeg',
         '/assets/IMG_6951.jpeg',
         '/assets/IMG_8782.jpeg',
-        '/assets/IMG_4444.jpeg',
+        '/assets/IMG_7849.jpeg',
         '/assets/IMG_0019.jpeg',
-        '/assets/IMG_2389.jpeg'
+        '/assets/IMG_2389.jpeg',
+        '/assets/IMG_7846.jpeg',
+        '/assets/IMG_7848.jpeg',
+        '/assets/IMG_7852.jpeg',
+        '/assets/IMG_7853.jpeg',
+        '/assets/IMG_7851.jpeg',
+        '/assets/IMG_7854.jpeg'
       ]
     }
   ];
