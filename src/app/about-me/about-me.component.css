@@ -91,17 +91,22 @@
 }
 
 .rating {
-  font-size: 1.5rem;
-  color: #ffd700; /* Золотой цвет для звезд */
+  font-size: 1.2rem; /* Уменьшенный размер звезд */
+  display: flex;
+  justify-content: center; /* Центрирование звезд */
+  gap: 4px; /* Отступ между звездами */
+  flex-wrap: wrap; /* Перенос звезд при нехватке места */
+  max-width: 100%; /* Ограничиваем ширину */
+  overflow: hidden; /* Убираем выход за границы */
 }
 
 .fa-star {
   color: #ffd700; /* Золотая звезда */
 }
 
-.checked {
-  color: #ffd700; /* Золотая звезда */
-}
+
+
+
 .about-container {
   background: linear-gradient(to right, #ffecd2, #fcb69f);
   min-height: 100vh;

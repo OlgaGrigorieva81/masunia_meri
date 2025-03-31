@@ -20,7 +20,6 @@ export class GalleryComponent {
         '/assets/1B4AF20C-BE67-4D11-A024-38D6E5FF80C8.jpeg',
         '/assets/IMG_4694.jpeg',
         '/assets/IMG_7243.jpeg',
-        
         '/assets/IMG_7583.jpeg',
         '/assets/IMG_6922 (1).jpeg',
         '/assets/IMG_6908 (1).jpeg',
